@@ -1,0 +1,10 @@
+//你好,java
+public class Hello {
+
+	public static void main(String[] args) {
+		System.out.println("Hello,Java");
+		System.out.println("Hello,\"I'm Java\"");
+//转义符号，\t tab键；\n换行符号；\r回车键;\' 单引号；\"双引号
+	}
+
+}

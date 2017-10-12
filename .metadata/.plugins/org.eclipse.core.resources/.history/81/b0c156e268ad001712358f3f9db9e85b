@@ -1,0 +1,12 @@
+import javax.swing.JOptionPane;
+public class DisplayUnicode {
+
+	public static void main(String[] args) {
+		JOptionPane.showMessageDialog(null,
+				"\ubB22\u8FCE 陈遵胜",
+				"ubB22\\u8FCE",
+				JOptionPane.INFORMATION_MESSAGE);
+
+	}
+
+}

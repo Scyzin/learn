@@ -1,0 +1,13 @@
+//gui输出消息文本
+import javax.swing.JOptionPane;
+public class DisplayUnicode {
+
+	public static void main(String[] args) {
+		JOptionPane.showMessageDialog(null,
+				"陈遵胜",
+				"欢迎您",
+				JOptionPane.INFORMATION_MESSAGE);
+
+	}
+
+}
