@@ -7,7 +7,7 @@ public class Leapyear {
 		String yearString = JOptionPane.showInputDialog("Enter a year");
 		int year = Integer.parseInt(yearString);//字符转换为整数
 		boolean isLeapYear = 
-				(year % 4 == 0 && 100!=0) ||(year % 400 == 0);//判断闰年的狮子
+				(year % 4 == 0 && year % 100!=0) ||(year % 400 == 0);//判断闰年的狮子
 		String output = year + "is a leap year? " + isLeapYear;
 		JOptionPane.showMessageDialog(null,output);
 		/*Scanner input = new Scanner(System.in);

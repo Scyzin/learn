@@ -22,5 +22,5 @@ public class SelectionSort {
 		}
 		
 	}
-	SelectionSort.selectionSort(list);
+	//SelectionSort.selectionSort(list);
 }
