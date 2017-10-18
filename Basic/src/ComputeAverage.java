@@ -17,5 +17,5 @@ public class ComputeAverage {
 		System.out.println("The Average of " + number1 + " " + number2 +" " + number3 +  " is " + average);
 		//定义常量   大写 final double PI
 	}
-
+	
 }
